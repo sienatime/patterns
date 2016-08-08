@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <script type="text/javascript" src="jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="lodash.core.min.js"></script>
+    <script type="text/javascript" src="js.js"></script>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial;
+      }
+      .color-box {
+        width: 60px;
+        height: 60px;
+        display: inline-block;
+      }
+
+      .color-box-container {
+        width: 120px;
+        display: inline-block;
+      }
+
+      .content {
+        position: absolute;
+        top: 120px;
+        left: 250px;
+        z-index: 100;
+        line-height: 60px;
+      }
+
+      h1 {
+        margin: 0;
+        display: inline-block;
+      }
+
+      .black {
+        color: black;
+      }
+
+      .white {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <button id="toggleLight"></button><button id="regenerateColors">Regenerate Colors</button>
+      <h1 class="black">Black<br/>Black</h1>
+      <h1 class="white">White<br/>White</h1>
+    </div>
+
+    <div id="grid-container"></div>
+
+  </body></html>
